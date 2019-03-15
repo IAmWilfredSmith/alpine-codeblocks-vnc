@@ -5,14 +5,14 @@
 # Copyright (c) 2014-2019, Wilfred A. Smith. All rights reserved.                                                                  #
 #                                                                                                                                  #
 # Arguments:                                                                                                                       #
-#                                                                                                                                                                             #
-#     ADMIN_GROUP - group name for the OS administrotor (default is administrators)                                                           #
-#     ADMIN_PASSWORD - initial password for the OS administrator (default is insecure). Change this immediately!                      #
-#     ADMIN_USERNAME - user name of the OS administrator (default is admin)                                                                          #
-#     GEOMETRY - widthxheightxbpp for the virtual display to be exposed (default is 1920x1200x24)                                             #
-#     VNC_LISTENPORT - TCP port on which the VNC server will listen. (default is 5901)                                                            #
-#    ALPINE_VERSION - specify the version of Alpine to use (default is latest).                                                                   #
-#                                                                                                                                                                             #
+#                                                                                                                                  #
+#     ADMIN_GROUP - group name for the OS administrotor (default is administrators)                                                #
+#     ADMIN_PASSWORD - initial password for the OS administrator (default is insecure). Change this immediately!                   #
+#     ADMIN_USERNAME - user name of the OS administrator (default is admin)                                                        #
+#     ALPINE_VERSION - specify the version of Alpine to use (default is latest).                                                   #
+#     GEOMETRY - widthxheightxbpp for the virtual display to be exposed (default is 1920x1200x24)                                  #
+#     VNC_LISTENPORT - TCP port on which the VNC server will listen. (default is 5901)                                             #
+#                                                                                                                                  #
 ####################################################################################################################################
 
 ARG ALPINE_VERSION=latest
